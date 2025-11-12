@@ -12,9 +12,9 @@ int calculate(const vector<string>& nums) {
             z += y;
         else if (c == '-')
             z -= y;
-        else if (c == 'X')
+        else if (c == 'x')
             z *= y;
-        else if (c == 'D')
+        else if (c == '/')
             z /= y;
     }
     return z;
